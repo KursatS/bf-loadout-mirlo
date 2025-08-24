@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Weapon - Battlefield 6 Loadouts</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Add New Weapon</h1>
+      <p>Fill in the form below to add a new weapon to the database</p>
+    </header>
+
+    <main>
+      <form id="add-weapon-form">
+        <div class="form-group">
+          <label for="weapon-id">Weapon ID *</label>
+          <input type="text" id="weapon-id" required>
+          <small>Unique identifier for the weapon (e.g., "m4a1")</small>
+        </div>
+
+        <div class="form-group">
+          <label for="weapon-name">Weapon Name *</label>
+          <input type="text" id="weapon-name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="weapon-type">Weapon Type *</label>
+          <select id="weapon-type" required>
+            <option value="">Select a type</option>
+            <option value="rifle">Rifle</option>
+            <option value="smg">SMG</option>
+            <option value="sniper">Sniper</option>
+            <option value="pistol">Pistol</option>
+            <option value="shotgun">Shotgun</option>
+            <option value="lmg">LMG</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="weapon-image">Image URL *</label>
+          <input type="url" id="weapon-image" required>
+          <small>Direct link to the weapon image</small>
+        </div>
+
+        <div class="form-group">
+          <label for="weapon-description">Description *</label>
+          <textarea id="weapon-description" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Attachments</label>
+          <div id="attachments-container">
+            <div class="attachment-input">
+              <input type="text" class="attachment-field" placeholder="Attachment 1 (e.g., 'Muzzle: Suppressor')">
+            </div>
+          </div>
+          <button type="button" id="add-attachment">Add Another Attachment</button>
+        </div>
+
+        <button type="submit">Add Weapon</button>
+      </form>
+
+      <div id="success-message" class="success-message" style="display: none;">
+        <h2>Weapon Added Successfully!</h2>
+        <p>The weapon has been added to the database.</p>
+        <button id="add-another">Add Another Weapon</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="add-weapon-script.js"></script>
+</body>
+</html>

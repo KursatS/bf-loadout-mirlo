@@ -1,0 +1,85 @@
+{
+  "name": "Battlefield 6 Loadouts",
+  "weapons": [
+    {
+      "id": "m4a1",
+      "name": "M4A1",
+      "type": "rifle",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/PEO_M4_Carbine_RAS_M68_CCO.png",
+      "attachments": [
+        "Muzzle: Suppressor",
+        "Barrel: Extended Barrel",
+        "Laser: Tactical Laser",
+        "Optic: Holo",
+        "Stock: Tactical Stock",
+        "Underbarrel: Grip",
+        "Magazine: Extended Mag"
+      ],
+      "description": "A versatile assault rifle with excellent handling and customization options. Perfect for medium to long-range engagements."
+    },
+    {
+      "id": "ak47",
+      "name": "AK-47",
+      "type": "rifle",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/AK-47_assault_rifle.jpg",
+      "attachments": [
+        "Muzzle: Muzzle Brake",
+        "Barrel: Extended Barrel",
+        "Laser: Tactical Laser",
+        "Optic: ACRO",
+        "Stock: Heavy Stock",
+        "Underbarrel: Foregrip",
+        "Magazine: Extended Mag"
+      ],
+      "description": "Legendary assault rifle known for its reliability and powerful damage. Slightly slower handling but packs a punch."
+    },
+    {
+      "id": "mp5",
+      "name": "MP5",
+      "type": "smg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/MP5.jpg/960px-MP5.jpg",
+      "attachments": [
+        "Muzzle: Suppressor",
+        "Barrel: Factory Barrel",
+        "Laser: Tactical Laser",
+        "Optic: Reflex",
+        "Stock: Standard Stock",
+        "Underbarrel: Laser Grip",
+        "Magazine: Extended Mag"
+      ],
+      "description": "Highly controllable submachine gun with excellent close-quarters performance. Great hip-fire accuracy."
+    },
+    {
+      "id": "svd",
+      "name": "SVD",
+      "type": "sniper",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/SVD_Dragunov.jpg/960px-SVD_Dragunov.jpg",
+      "attachments": [
+        "Muzzle: Suppressor",
+        "Barrel: Extended Barrel",
+        "Laser: Tactical Laser",
+        "Optic: Variable Zoom",
+        "Stock: Marksman Stock",
+        "Underbarrel: Bipod",
+        "Magazine: Extended Mag"
+      ],
+      "description": "Semi-automatic marksman rifle with impressive range and accuracy. Perfect for medium to long-range elimination."
+    },
+    {
+      "id": "m9",
+      "name": "M9",
+      "type": "pistol",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/M9-pistolet.jpg/960px-M9-pistolet.jpg",
+      "attachments": [
+        "Muzzle: Suppressor",
+        "Barrel: Extended Barrel",
+        "Laser: Tactical Laser",
+        "Optic: Reflex",
+        "Stock: (N/A)",
+        "Underbarrel: (N/A)",
+        "Magazine: Extended Mag"
+      ],
+      "description": "Reliable sidearm with good accuracy and handling. Effective in close-quarters combat and as a backup weapon."
+    }
+  ]
+}
